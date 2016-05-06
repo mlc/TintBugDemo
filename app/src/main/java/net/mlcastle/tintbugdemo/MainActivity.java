@@ -49,7 +49,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
         DrawableCompat.setTintMode(wrapped, PorterDuff.Mode.SRC_IN);
 
         // uncomment the following line and this will work on all platforms;
-        // if it is commented out, it is broken pre-Lollipop
+        // if it is commented out, it is broken pre-Marshmallow
         // wrapped.invalidateSelf();
     }
 }
